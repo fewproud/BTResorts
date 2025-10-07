@@ -1,0 +1,170 @@
+note: Generated from recorded traffic using firefox 143.0.3
+configuration:
+  dataset: mydataset.csv
+  profile: firefox
+  vars:
+    Password: j2ee
+    num: '2'
+steps:
+  - open:
+      note: Open http://168.1.201.25:7080/JPetStore/
+      url: http://168.1.201.25:7080/JPetStore/
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_2kionr.dti.jpeg#57
+            object: html.a
+            identifiers:
+              - properties:
+                  - content:
+                      - val: Enter the Store
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_zfgxg5.dti.jpeg#101
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/sign-in.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - type:
+            shot: JPetStore Demo_uaa2sn.dti.jpeg#101
+            object: html.inputpassword
+            identifiers:
+              - properties:
+                  - label:
+                      - val: 'Password:'
+            value: '${Password}'
+        - click:
+            shot: JPetStore Demo_2pjc5j.dti.jpeg#282
+            object: html.inputimage
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/button_submit.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_tcyltr.dti.jpeg#155
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/dogs_icon.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_bn7kyx.dti.jpeg#148
+            object: html.font
+            identifiers:
+              - properties:
+                  - content:
+                      - val: '${category}'
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_cz2bp6.dti.jpeg#164
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/button_add_to_cart.gif
+                locators:
+                  - inside:
+                      object: html.td
+                      properties:
+                        - position:
+                            - val: '5 : 3'
+  - with:
+      note: JPetStore Demo
+      steps:
+        - type:
+            shot: JPetStore Demo_xxwb7x.dti.jpeg#197
+            object: html.inputtext
+            identifiers:
+              - properties:
+                  - label:
+                      - val: 'true'
+            value: '${num}'
+        - click:
+            shot: JPetStore Demo_qesozg.dti.jpeg#462
+            object: html.inputimage
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/button_update_cart.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_ra3dnp.dti.jpeg#214
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/button_checkout.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_pznhzg.dti.jpeg#169
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/button_continue.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_mdqhsf.dti.jpeg#199
+            object: html.inputimage
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/button_submit.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_e6p76i.dti.jpeg#239
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/button_continue.gif
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_rfip7r.dti.jpeg#206
+            object: html.font
+            identifiers:
+              - properties:
+                  - content:
+                      - val: << Main Menu
+  - with:
+      note: JPetStore Demo
+      steps:
+        - click:
+            shot: JPetStore Demo_qnpjiu.dti.jpeg#107
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/logo-topbar.gif
+        - click:
+            shot: JPetStore Demo_3kwe6a.dti.jpeg#113
+            object: html.img
+            identifiers:
+              - properties:
+                  - src:
+                      - val: ../images/sign-out.gif
