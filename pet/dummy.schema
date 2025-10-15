@@ -1,0 +1,15 @@
+{
+  "schemaName" : "dummy",
+  "description" : "",
+  "constraints" : [ ],
+  "databaseConnection" : null,
+  "entities" : [ {
+    "referencedDataDefinition" : "asset://github.com%2Ffewproud%2FBTResorts/pet/order.ddf",
+    "inlineDataDefinition" : null,
+    "rowCount" : 1
+  }, {
+    "referencedDataDefinition" : "asset://github.com%2Ffewproud%2FBTResorts/pet/Pet.ddf",
+    "inlineDataDefinition" : null,
+    "rowCount" : 1
+  } ]
+}

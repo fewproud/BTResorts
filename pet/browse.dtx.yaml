@@ -1,10 +1,12 @@
 note: Generated from recorded traffic using firefox 143.0.3
 configuration:
-  dataset: mydataset.csv
+  dataset: {}
   profile: firefox
   vars:
     Password: j2ee
     num: '2'
+    category: dogs
+    itemid: ''
 steps:
   - open:
       note: Open http://168.1.201.25:7080/JPetStore/

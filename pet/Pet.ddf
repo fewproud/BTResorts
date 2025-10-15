@@ -1,0 +1,19 @@
+{
+  "name" : "Pet",
+  "description" : "",
+  "fields" : [ {
+    "name" : "category",
+    "repositoryUrl" : "",
+    "filePath" : "pet/Product/Category.cgen"
+  }, {
+    "name" : "item_ID",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
+    "filePath" : "pet/Product/item_ID.cgen"
+  }, {
+    "name" : "item_Name",
+    "repositoryUrl" : "",
+    "filePath" : "pet/Product/item_Name.cgen"
+  }, {
+    "name" : "price"
+  } ]
+}

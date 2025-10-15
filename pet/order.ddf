@@ -1,0 +1,21 @@
+{
+  "name" : "order",
+  "description" : "",
+  "fields" : [ {
+    "name" : "item_ID",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
+    "filePath" : "pet/Product/item_ID.cgen"
+  }, {
+    "name" : "cutomer_ID",
+    "repositoryUrl" : "",
+    "filePath" : "pet/Order/order_ID.cgen"
+  }, {
+    "name" : "num",
+    "repositoryUrl" : "",
+    "filePath" : "pet/Order/num.cgen"
+  }, {
+    "name" : "sum",
+    "repositoryUrl" : "",
+    "filePath" : "pet/Order/sum.cgen"
+  } ]
+}
