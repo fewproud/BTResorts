@@ -1,11 +1,13 @@
 note: Generated from recorded traffic using firefox 143.0.3
 configuration:
-  dataset: {}
+  dataset: mydataset.csv
   profile: firefox
   vars:
     Password: j2ee
     num: '2'
-    category: dogs
+    category:
+      expr: category
+      type: column
     itemid: ''
 steps:
   - open:

@@ -1,0 +1,25 @@
+{
+  "name" : "test_data",
+  "description" : "",
+  "fields" : [ {
+    "name" : "Category",
+    "repositoryUrl" : "",
+    "filePath" : "pet/Product/Category.cgen"
+  }, {
+    "name" : "product_ID",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
+    "filePath" : "pet/Product/item_ID.cgen"
+  }, {
+    "name" : "product_Name",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
+    "filePath" : "pet/Product/item_Name.cgen"
+  }, {
+    "name" : "num",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
+    "filePath" : "pet/Order/num.cgen"
+  }, {
+    "name" : "sum",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
+    "filePath" : "pet/Order/sum.cgen"
+  } ]
+}

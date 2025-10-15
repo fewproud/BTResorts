@@ -1,2 +1,2 @@
-category,product_id,product_name,quantity
-dogs,	K9-CW-01,Chihuahua,2
+category,category_UPPER,item_ID,item_Name,price,sum
+Fish,FISH,FI-FW-01,Koi,18.5,
