@@ -2,24 +2,12 @@
   "name" : "pet2",
   "description" : "",
   "fields" : [ {
-    "name" : "category",
+    "name" : "name",
     "repositoryUrl" : "",
-    "filePath" : "pet/Product/mydata.cgen"
+    "filePath" : "pet/Dummy/name.cgen"
   }, {
-    "name" : "category_UPPER",
+    "name" : "upcase",
     "repositoryUrl" : "",
-    "filePath" : "pet/Product/mydata_u.cgen"
-  }, {
-    "name" : "product_ID",
-    "repositoryUrl" : "",
-    "filePath" : "pet/Product/mydate_p.cgen"
-  }, {
-    "name" : "product_name"
-  }, {
-    "name" : "item_ID",
-    "repositoryUrl" : "",
-    "filePath" : "pet/Product/mydate_i.cgen"
-  }, {
-    "name" : "item_name"
+    "filePath" : "pet/Dummy/upcase.cgen"
   } ]
 }

@@ -1,19 +1,19 @@
 {
-  "name" : "mydata_in",
+  "name" : "name",
   "version" : "0.0.1",
-  "categoryId" : "78cec4bc-bed9-4067-8ec4-bcbed9506747",
+  "categoryId" : "da5abeec-6e4c-4957-9abe-ec6e4c195713",
   "parentGenerator" : "Dataset",
   "globalProperties" : {
     "duplicatesAllowed" : "true",
     "blankPercentage" : "0"
   },
   "configurations" : [ {
-    "name" : "Default",
+    "name" : "Config_1",
     "weightage" : 100.0,
     "properties" : {
-      "filePath" : "pet/Product/product_types.csv",
+      "filePath" : "pet/Product/pet-def.csv",
       "repositoryUrl" : "",
-      "column" : "item_name"
+      "column" : "name"
     }
   } ]
 }
