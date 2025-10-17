@@ -1,10 +1,9 @@
 {
-  "name" : "Category",
+  "name" : "mydata_in",
   "version" : "0.0.1",
   "categoryId" : "78cec4bc-bed9-4067-8ec4-bcbed9506747",
-  "parentGenerator" : "String",
+  "parentGenerator" : "Dataset",
   "globalProperties" : {
-    "randomDistribution" : "false",
     "duplicatesAllowed" : "true",
     "blankPercentage" : "0"
   },
@@ -12,10 +11,9 @@
     "name" : "Default",
     "weightage" : 100.0,
     "properties" : {
-      "minimumCharacters" : "10",
-      "maximumCharacters" : "1000",
-      "includeSpecialCharacters" : "false",
-      "includeDigits" : "false"
+      "filePath" : "",
+      "repositoryUrl" : "",
+      "column" : ""
     }
   } ]
 }

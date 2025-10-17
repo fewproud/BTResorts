@@ -4,16 +4,22 @@
   "fields" : [ {
     "name" : "category",
     "repositoryUrl" : "",
-    "filePath" : "pet/Product/Category.cgen"
+    "filePath" : "pet/Product/category.cgen"
+  }, {
+    "name" : "category_upcase",
+    "repositoryUrl" : "",
+    "filePath" : "pet/Product/mydata.cgen"
   }, {
     "name" : "item_ID",
     "repositoryUrl" : "github.com/fewproud/BTResorts",
     "filePath" : "pet/Product/item_ID.cgen"
   }, {
     "name" : "item_Name",
-    "repositoryUrl" : "",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
     "filePath" : "pet/Product/item_Name.cgen"
   }, {
-    "name" : "price"
+    "name" : "price",
+    "repositoryUrl" : "github.com/fewproud/BTResorts",
+    "filePath" : "pet/Order/num.cgen"
   } ]
 }

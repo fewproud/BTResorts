@@ -1,0 +1,8 @@
+category,category_upcase,product_ID,product_name,item_ID,item_name,price
+dogs,Dogs,K9-BD-01,Bulldog,EST-6,Male Adult Bulldog,$18.50
+dogs,Dogs,K9-BD-01,Bulldog,EST-7,Male Adult Bulldog,$18.50
+dogs,Dogs,K9-PO-02,Poodle,EST-8,Male Puppy Poodle,$18.50
+cats,Cats,FL-DLH-02,Persian,EST-16,Adult Female Persian,$93.50
+cats,Cats,FL-DLH-02,Persian,EST-17,Adult Male Persian,$93.50
+fish,Fish,FI-FW-01,Koi,EST-4,Spotted Koi,$18.50
+fish,Fish,FI-FW-01,Koi,EST-5,Spotless Koi,$18.50

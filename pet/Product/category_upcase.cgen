@@ -1,0 +1,32 @@
+{
+  "name" : "category_upcase",
+  "version" : "0.0.1",
+  "categoryId" : "78cec4bc-bed9-4067-8ec4-bcbed9506747",
+  "parentGenerator" : "Enumerator",
+  "globalProperties" : {
+    "duplicatesAllowed" : "true",
+    "randomDistribution" : "false",
+    "blankPercentage" : "0"
+  },
+  "configurations" : [ {
+    "name" : "fish",
+    "weightage" : 50.0,
+    "properties" : {
+      "list" : [ {
+        "value" : "Fish",
+        "distribution" : 20
+      } ],
+      "random" : true
+    }
+  }, {
+    "name" : "cats",
+    "weightage" : 50.0,
+    "properties" : {
+      "list" : [ {
+        "value" : "Cats",
+        "distribution" : 20
+      } ],
+      "random" : "true"
+    }
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "name" : "category",
+  "version" : "0.0.1",
+  "categoryId" : "78cec4bc-bed9-4067-8ec4-bcbed9506747",
+  "parentGenerator" : "Enumerator",
+  "globalProperties" : {
+    "duplicatesAllowed" : "true",
+    "randomDistribution" : "false",
+    "blankPercentage" : "0"
+  },
+  "configurations" : [ {
+    "name" : "Default",
+    "weightage" : 100.0,
+    "properties" : {
+      "list" : [ {
+        "value" : "fish",
+        "distribution" : 20
+      }, {
+        "value" : "dogs",
+        "distribution" : 30
+      }, {
+        "value" : "cats",
+        "distribution" : 50
+      } ],
+      "random" : true
+    }
+  } ]
+}
